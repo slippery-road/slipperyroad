@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fefo26.github.io/slippery-road-site/sitemap.xml

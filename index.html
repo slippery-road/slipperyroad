@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SLIPPERY ROAD | Official Website</title>
+  <meta name="description" content="Sito ufficiale delle Slippery Road: band, tour, merch, media, date live e contatti booking." />
+  <meta name="keywords" content="Slippery Road, band, punk rock, rock band, live, tour, merch" />
+  <meta name="author" content="SLIPPERY ROAD" />
+  <meta name="theme-color" content="#0b0b0f" />
+
+  <meta property="og:title" content="SLIPPERY ROAD | Official Website" />
+  <meta property="og:description" content="Punk-rock diretto, ruvido e moderno. Band, tour, merch, media e booking." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-image.jpg" />
+
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="preload" href="style.css" as="style" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Salta al contenuto</a>
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Navigazione principale">
+      <a class="brand" href="#home" aria-label="Torna alla home">
+        <img src="assets/logo.svg" alt="Logo SLIPPERY ROAD" class="brand-logo" />
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Apri menu" aria-expanded="false" aria-controls="site-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="site-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#band">Band</a></li>
+        <li><a href="#tour">Tour</a></li>
+        <li><a href="#merch">Merch</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#contact" class="nav-cta">Booking</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Official website</p>
+        <h1 id="hero-title">SLIPPERY ROAD</h1>
+        <p class="hero-subtitle">Punk-rock diretto, ruvido e moderno. Quattro musicisti, un palco, nessuna scorciatoia.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#tour">Prossime date</a>
+          <a class="button ghost" href="#media">Guarda i media</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Foto della band e informazioni rapide">
+        <div class="hero-frame">
+          <img src="assets/band.jpg" alt="Foto della band Slippery Road" class="hero-image" />
+        </div>
+
+        <div class="quick-panel">
+          <div class="panel-box">
+            <span class="panel-number">04</span>
+            <span class="panel-label">Componenti</span>
+            <span class="panel-text">Voce, chitarre, basso e batteria.</span>
+          </div>
+          <div class="panel-box">
+            <span class="panel-number">LIVE</span>
+            <span class="panel-label">Energia</span>
+            <span class="panel-text">Set diretto, impatto visivo e sound compatto.</span>
+          </div>
+          <div class="panel-box">
+            <span class="panel-number">MEDIA</span>
+            <span class="panel-label">Gallery</span>
+            <span class="panel-text">Foto live, backstage e immagini della band.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section band-section" id="band" aria-labelledby="band-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Band</p>
+        <h2 id="band-title">Chi siamo</h2>
+        <p>
+          Le Slippery Road sono una band punk-rock con un suono diretto, ruvido e moderno.
+          In questa versione del sito ho inserito il logo SVG, la foto della band in home, i ritratti dei componenti,
+          la sezione tour con locandine, il merch e una gallery media con le foto del tuo archivio.
+        </p>
+      </div>
+      <div class="members-grid" id="membersGrid" aria-label="Componenti della band"></div>
+    </section>
+
+    <section class="section tour-section" id="tour" aria-labelledby="tour-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Tour</p>
+        <h2 id="tour-title">Date live e locandine</h2>
+        <p>Date live con locandine in formato JPG, info e pulsante per aggiungere l’evento al calendario.</p>
+      </div>
+      <div class="tour-layout">
+        <aside class="next-show reveal" aria-labelledby="next-show-title">
+          <p class="eyebrow">Next show</p>
+          <h3 id="next-show-title">Prossimo concerto</h3>
+          <div id="nextShow"></div>
+        </aside>
+        <div class="tour-list" id="tourList" aria-label="Lista date tour"></div>
+      </div>
+    </section>
+
+    <section class="section merch-section" id="merch" aria-labelledby="merch-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Merch</p>
+        <h2 id="merch-title">Merch ufficiale</h2>
+        <p>Magliette, cappelli e portachiavi con stile coerente al sito e colori della band.</p>
+      </div>
+      <div class="merch-grid" id="merchGrid" aria-label="Prodotti merch"></div>
+    </section>
+
+    <section class="section media-section" id="media" aria-labelledby="media-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Media</p>
+        <h2 id="media-title">Gallery</h2>
+        <p>Una selezione di foto dalla cartella <strong>media</strong>. Clicca sulle immagini per aprirle in grande.</p>
+      </div>
+      <div class="media-grid" id="mediaGrid" aria-label="Foto media"></div>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-card reveal">
+        <p class="eyebrow">Booking</p>
+        <h2 id="contact-title">Porta le Slippery Road sul tuo palco</h2>
+        <p>Per concerti, festival, serate, interviste e collaborazioni.</p>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:booking@slipperyroad.it?subject=Booking%20SLIPPERY%20ROAD">booking@slipperyroad.it</a>
+          <a class="button ghost" href="#home">Torna alla home</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="#home" class="footer-logo" aria-label="Torna alla home">
+      <img src="assets/logo.svg" alt="Logo SLIPPERY ROAD" />
+    </a>
+    <p>© <span id="year"></span> SLIPPERY ROAD. All rights reserved.</p>
+    <div class="footer-socials" aria-label="Social media">
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a>
+      <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">TikTok</a>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-inner">
+      <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Chiudi foto">✕</button>
+      <figure class="lightbox-card">
+        <img id="lightboxImage" src="" alt="" />
+        <figcaption id="lightboxCaption"></figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
